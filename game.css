@@ -1,0 +1,23 @@
+.head{
+    text-align: center;
+    border-style: solid;
+    width: 75%;
+    margin: 0 auto;
+
+
+}
+.image{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+}
+.image img{
+    width: 15%;
+    height: auto;
+}
+.image img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50,233,1);
+}
